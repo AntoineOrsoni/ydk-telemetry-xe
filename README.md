@@ -50,6 +50,9 @@ You can read a subscription. You need to provide:
 
 ## Deleting a subscription
 
+Bug: delete_mdt_config(subscription_id) deletes all subscriptions, not only the specified id.
+
+
 `read_mdt_config(self, subscription_id)`
 
 This is a method of the class MDT, sub-class of Device.
@@ -58,6 +61,7 @@ You can delete a subscription. You need to provide:
 
 ## TODO:
 
+* delete_mdt_config() deletes all subscriptions, not only the specified id.
 * create a REST API.
 * verify is the NETCONF_provider is still available, if yes, reuse it.
 * integrate with a TIG (Telegraf, Influxdb, Grafana) container.
