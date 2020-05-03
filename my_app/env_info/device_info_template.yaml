@@ -1,0 +1,6 @@
+- name: name-of-device
+  username: username
+  password: password
+  mgmt_ip: x.x.x.x
+  ssh_port: 22
+  netconf_port: 830

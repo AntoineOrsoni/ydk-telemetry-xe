@@ -1,0 +1,4 @@
+- name: mdt_receiver_1
+  address: x.x.x.x
+  port: 57500
+  protocol: grpc-tcp
