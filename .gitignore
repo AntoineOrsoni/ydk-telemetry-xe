@@ -1,3 +1,4 @@
 /venv/
-/mdt/device_info.yaml
-/mdt/mdt_receiver_info.yaml
+/.idea
+/my_app/env_info/device_info.yaml
+/my_app/env_info/mdt_receiver_info.yaml
